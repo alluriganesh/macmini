@@ -10,6 +10,7 @@
 		D7C66F01164A45C1002704B6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7C66F00164A45C1002704B6 /* Foundation.framework */; };
 		D7C66F04164A45C1002704B6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D7C66F03164A45C1002704B6 /* main.m */; };
 		D7C66F08164A45C1002704B6 /* HelloWorld.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = D7C66F07164A45C1002704B6 /* HelloWorld.1 */; };
+		D7C66F2C164A796F002704B6 /* gg.m in Sources */ = {isa = PBXBuildFile; fileRef = D7C66F2B164A796F002704B6 /* gg.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +32,8 @@
 		D7C66F03164A45C1002704B6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D7C66F06164A45C1002704B6 /* HelloWorld-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HelloWorld-Prefix.pch"; sourceTree = "<group>"; };
 		D7C66F07164A45C1002704B6 /* HelloWorld.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = HelloWorld.1; sourceTree = "<group>"; };
+		D7C66F2A164A796F002704B6 /* gg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gg.h; sourceTree = "<group>"; };
+		D7C66F2B164A796F002704B6 /* gg.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = gg.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +78,8 @@
 			children = (
 				D7C66F03164A45C1002704B6 /* main.m */,
 				D7C66F07164A45C1002704B6 /* HelloWorld.1 */,
+				D7C66F2A164A796F002704B6 /* gg.h */,
+				D7C66F2B164A796F002704B6 /* gg.m */,
 				D7C66F05164A45C1002704B6 /* Supporting Files */,
 			);
 			path = HelloWorld;
@@ -140,6 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D7C66F04164A45C1002704B6 /* main.m in Sources */,
+				D7C66F2C164A796F002704B6 /* gg.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -236,6 +242,7 @@
 				D7C66F0D164A45C1002704B6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

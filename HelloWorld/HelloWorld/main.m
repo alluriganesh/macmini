@@ -7,6 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "gg.h"
 
 int main(int argc, const char * argv[])
 {
@@ -17,6 +18,8 @@ int main(int argc, const char * argv[])
         NSLog(@"Hello, World!");
         NSLog(@"Welcome To Regalix");
         NSLog(@"Bangalore");
+        [gg print];
+        
         
     }
     return 0;
